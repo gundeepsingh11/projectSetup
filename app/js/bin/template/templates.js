@@ -1,0 +1,1 @@
+angular.module("templates", []).run(["$templateCache", function($templateCache) {$templateCache.put("home/home.tpl","<!doctype html><html ng-app><head></head><body><div>hello</div></body></html>");}]);
