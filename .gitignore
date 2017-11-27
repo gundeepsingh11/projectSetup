@@ -1,1 +1,13 @@
 node_modules/
+npm-debug.log
+.DS_Store
+routes..
+results.bin
+public/images/uploads/
+
+
+app/css
+
+app/dest/css
+app/dest/js
+app/js/bin/template/templates.js

@@ -1,4 +1,4 @@
-angular.module( 'home', [ 'zoltpay'] ).config( function( $stateProvider ) {
+angular.module( 'home', [] ).config( function( $stateProvider ) {
   $stateProvider.state( 'home', {
     url: '/home',
     templateUrl: 'app/js/home/home.tpl',
@@ -14,7 +14,7 @@ angular.module( 'home', [ 'zoltpay'] ).config( function( $stateProvider ) {
   // function to change the background color of the menu button and the display value of the menu
   function accordionMenu() {
     var menu = document.getElementById( "toggled" );
-    var menuStyle = window.getComputedStyle( menu );
+    var menuStyle = window.getComputedStyle( menu ); 
     var display = menuStyle.getPropertyValue( 'display' );
     if ( display === 'none' ) {
       toggle.style.backgroundColor = "transparent";

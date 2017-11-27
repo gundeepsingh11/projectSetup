@@ -7,11 +7,8 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 body {
   font-family: 'Raleway', sans-serif;
-
   background-color: #FFFFFF;
 }
-
-
 
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
@@ -27,7 +24,6 @@ body {
   background-color: #20CD9F;
   border: 2px solid #20CD9F;
 }
-
 
 
 /* CSS reset */
@@ -88,35 +84,9 @@ caption, th {
   background-image: url("../../images/Background.jpg");
 }
 
-
-
-
-
-/*.header {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: nowrap;
-  padding: 25px 0px 25px 0px;
-  position: fixed;
-}
-*/
-
 .img {
   width: 193px;
   height: 56px;
-}
-
-.topnav {
-  padding: 25px;
-  color: white;
-  font-size: 13px;
-  /*margin-left: 350px;*/
-}
-
-.abc {
-  padding: 8px;
-  font-weight: 600;
 }
 
 .top-content {
@@ -151,7 +121,6 @@ caption, th {
 }
 
 .input {
-
   border: 2px solid white;
   padding: 21px;
   background: transparent;
@@ -164,7 +133,6 @@ caption, th {
   background-color: #FFF;
   color: #44bb9c;
   width: 130px;
-
   border: 2px solid white;
   font-size: 18px;
   font-weight: bold;
@@ -200,46 +168,6 @@ input:focus {
   outline: white;
 }
 
-
-
-
-
-/*.wrapper {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-}*/
-
-
-/*.row {
-  width: 50%;
-}
-*/
-
-.row1 {
-  width: 50%;
-  font-size: 40px;
-  font-weight: 600;
-  color: #555555;
-  padding: 60px;
-}
-
-.row2 {
-  width: 50%;
-  padding: 60px 0px 0px 90px;
-}
-
-.header1 {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #b91616;
-  padding: 0;
-  width: 130px;
-  float: left;
-}
-
 .hr {
   display: block;
   border: 0;
@@ -253,79 +181,37 @@ input:focus {
   display: flex;
   width: 100%;
   padding-bottom: 15px;
+  .list-img {
+    width: 25%;
+  }
+  .list-contant {
+    font-size: 24px;
+    line-height: 70px;
+  }
 }
 
-.list-img {
-  width: 25%;
-}
-
-.list-contant {
-  font-size: 24px;
-  line-height: 70px;
-}
-
-.lorem {
-  font-size: 19px;
-  line-height: 27px;
-  font-weight: 500;
-  padding-bottom: 30px;
-}
-
-.wrapper2 {
+.section-2 {
   width: 100%;
   height: 612px;
   background-image: url("../../images/calculator_bg.jpg");
-}
-
-.calculator-contant {
-
-  font-size: 45px;
-  font-weight: 600;
-  color: white;
-  font-style: normal;
-  text-align: center;
-  padding-top: 130px;
-  line-height: 40px;
-  padding-bottom: 20px;
-}
-
-.hr1 {
-  display: block;
-  border: 0;
-  border-top: 2px solid #c8c8c8;
-  padding: 0;
-  width: 270px;
-  margin: auto;
-}
-
-.cal-button {
-  line-height: 10;
-  display: flex;
-  justify-content: center;
-  padding: 74px;
-}
-
-.input-Calci {
-  padding: 20px;
-}
-
-.input-calci {
-  padding: 20px;
-}
-
-.calci-b {
-  width: 170px;
-  padding: 16px;
-  background-color: transparent;
-  border: 3px solid #44bb9c;
-  color: #44bb9c;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.calci-b:hover {
-  background-color: #44bb9c;
-  color: white;
+  .contant-head {
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+    font-style: normal;
+    text-align: center;
+    padding-top: 130px;
+    line-height: 40px;
+    padding-bottom: 20px;
+  }
+  .contact-hr {
+    display: block;
+    border: 0;
+    border-top: 2px solid #c8c8c8;
+    padding: 0;
+    width: 270px;
+    margin: auto;
+  }
 }
 
 md-input-container {
@@ -343,10 +229,6 @@ md-input-container {
   }
 }
 
-.wrpper3 {
-  width: 100%;
-}
-
 .simple-steps {
   text-align: center;
   font-size: 31px;
@@ -354,24 +236,10 @@ md-input-container {
   padding: 90px;
 }
 
-.simple-flex {
-  display: flex;
-  justify-content: center;
-}
-
 .image1 {
   padding: 0px 45px 15px 45px;
   text-align: center;
 }
-
-
-
-
-
-/*.simple-flex1 {
-  display: flex;
-  justify-content: center;
-}*/
 
 .Simple-header {
   font-size: 16px;
@@ -389,27 +257,9 @@ md-input-container {
   margin: auto;
 }
 
-.row3 {
-  width: 25%;
-  padding: 15px;
-  text-align: justify;
-}
-
 .simple-contant {
   padding: 40px;
   color: gray;
-}
-
-.wrapper4 {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  background-color: #F2F2F2;
-}
-
-.row4 {
-  width: 50%;
 }
 
 .wrapper5 {
@@ -417,11 +267,6 @@ md-input-container {
   height: auto;
   background-color: #20cd9f;
   padding: 30px;
-  /*line-height: 27px;*/
-}
-
-.app-store-M {
-  padding: 94px;
 }
 
 .app-store {
@@ -450,15 +295,14 @@ md-input-container {
 .slider {
   width: 100%;
   height: 600px;
-}
-
-.slider-data {
-  text-align: center;
-  color: #555555;
-  font-size: 38px;
-  font-weight: bold;
-  padding: 60px 0px 15px 0px;
-  margin-bottom: 50px;
+  .slider-data {
+    text-align: center;
+    color: #555555;
+    font-size: 38px;
+    font-weight: bold;
+    padding: 60px 0px 15px 0px;
+    margin-bottom: 50px;
+  }
 }
 
 .hr4 {
@@ -599,9 +443,6 @@ li {
 }
 
 
-
-
-
 /* media queries */
 
 @media screen and (min-width: 41.25em) {
@@ -695,7 +536,7 @@ li {
   .slider-content {
     width: 100%!important;
   }
-  .cal-button{
+  .cal-button {
     padding: 60px 0 0 0;
   }
 }
@@ -780,7 +621,6 @@ li {
     justify-content: center;
     list-style: none;
   }
-
   a {
     /*padding: 1.25rem 0.5rem;*/
     font-size: 12px;
@@ -851,14 +691,16 @@ li {
   nav {
     float: right;
   }
-  a{
-    color: black; 
+  a {
+    color: black;
   }
 }
-.fixed-header a:focus{
+
+.fixed-header a:focus {
   outline: none;
   border-bottom: 2px solid black;
 }
-.fixed-header a:active{
+
+.fixed-header a:active {
   border-bottom: 2px solid black;
 }
